@@ -5,22 +5,22 @@
     <description>The Circle of Verdant</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
     <update version="0.0.4">
-      <file name="druid-2pointOh.xml" url="https://github.com/Emrryz/Aurora/blob/main/class-druid2pointOh.xml" />
+      <file name="druid-2pointOh.xml" url="https://github.com/Emrryz/Aurora/blob/main/druid-2PointOh.xml" />
     </update>
   </info>
   <element name="Circle of the Verdant" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_CIRCLE_OF_VERDANT">
     <supports>Druid Circle</supports>
     <description>
       <p>Druids of the Verdant Circle are most at peace among the green wilds, tending to wildflower blooms, sacred groves, vine-bound rainforests and even seagrass plains dancing on he ocean floor. These druids fight fiercly to defend this life upon which all other life depends, and are protected and nutured in return</p>
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_BALM_OF_THE_SUMMER_COURT" />
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HEARTH_OF_MOONLIGHT_AND_SHADOW" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CIRCLE_VERDANT_GROVE_PROTECTOR" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_VERDANT_FORM" />
       <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HIDDEN_PATHS" />
       <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_WALKER_IN_DREAMS" />
     </description>
     <sheet display="false" />
     <rules>
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_BALM_OF_THE_SUMMER_COURT" level="2" />
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HEARTH_OF_MOONLIGHT_AND_SHADOW" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CIRCLE_VERDANT_GROVE_PROTECTOR" level="2" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_VERDANT_FORM" level="2" />
       <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HIDDEN_PATHS" level="10" />
       <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_WALKER_IN_DREAMS" level="14" />
     </rules>
@@ -29,7 +29,7 @@
 		<description>
 			<p>Upon joining the Circle of the Verdant at 2nd level, you gain the ability to charge seeds or spores with sentience and purposeful life, growing and awakened plant friend that joins
 			you on your adventure and defends you and your friends. You can spend 8 hours tending to a seed, bud or spore, rooting it in a sacred soil, feeding it with enchanted waters, or bathing
-			it in blessed light. At the end of 8 hours, your friend sprouts to full size,m in a size from small to large (your choice).
+			it in blessed light. At the end of 8 hours, your friend sprouts to full size, in a size from small to large (your choice).
 			Choose a friend from among the following types: living tree, blood rose, vine creeper, or myconid, each with unique statistics. See this creature's game statistics below. You may also choose
 			up to two variant features for your friend, listed below, and an additional variant feature each at 11th and 17th level.
 			Your plant friend obeys your commands (no action required by you) and takes its turn on your initiative. Your plant friend can also be commanded to melf with you or another friendly creature
@@ -38,27 +38,31 @@
 			 with ease. As an action, you can accelerate this proccess of regrowth, using one use of your Wild Shape to instantly revive your friend with 1 hit point.</p>
 		</description>
 		<sheet>
-			<description>You can cast the alter self spell at will.</description>
+			<description>You can summon a plant companion over 8 hours (living tree, blood rose, vine creeper, or myconid).</description>
 		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Druid" />
-		</rules>
 	</element>
 
-  <element name="Hearth of Moonlight and Shadow" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HEARTH_OF_MOONLIGHT_AND_SHADOW">
+  <element name="Verdant Form" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_VERDANT_FORM">
     <description>
-      <p>At 6th level, home can be wherever you are. During a short or long rest, you can invoke the shadowy power of the Gleaming Court to help guard your respite. At the start of the rest, you touch a point in space, and an invisible, 30-foot—radius sphere of magic appears, centered on that point. Total cover blocks the sphere.</p>
-      <p class="indent">While within the sphere, you and your allies gain a +5 bonus to Dexterity (Stealth) and Wisdom (Perception) checks, and any light from open flames in the sphere (a campfire, torches, or the like) isn’t visible outside it.</p>
-      <p class="indent">The sphere vanishes at the end of the rest or when you leave the sphere.</p>
+      <p>Your familiarity with verdant life grants you the ability to take on their forms and attune to them through magic. At 2nd level, plants are considered beasts for the purpose of all your druid spells and features. Moreover, as an action, you can expend one use of your
+	  Wild Shape to surge your plant friend with life, restoring a number of hitpoints equal to 3x your druid level, divided between your plant friend and its symbiote as your choose. As part of the same action you can shift the form of your plant friend to another type you can growing
+	  , this new form lasting as long as your own Wild Shape</p>
     </description>
     <sheet>
-      <description>at the start of a rest, touch a point in space, and an invisible, 30ft radius sphere of magic shadow appears. While within, you and your allies gain a +5 to Stealth and Perception, and no light is visible outside it. It vanishes at the end of the rest, or when you leave the sphere.</description>
+      <description>as an action, spend 1 Wild Shape charge to heal your plant friend/symbiote 3x your druid level, devided between as you wish.</description>
     </sheet>
   </element>
-  <element name="Hidden Paths" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HIDDEN_PATHS">
+  
+  <element name="Lifebloom" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_LIFEBLOOM">
     <description>
-      <p>Starting at 10th level, you can use the hidden, magical pathways that some fey use to traverse space in the blink of an eye. As a bonus action on your turn, you can teleport up to 60 feet to an unoccupied space you can see. Alternatively, you can use your action to teleport one willing creature you touch up to 30 feet to an unoccupied space you can see.</p>
-      <p class="indent">You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>
+      <p>Starting at 6th level, you gain the ability to effortlessly call nature's splendor around you. As a bonus action you can activate or quiet your verdant power. Wherever you go, plants sprout and bloom, and small creatures friendly to you emerge to follow.</p>
+      <p class="indent">When you move, greenery traces your steps, remaining until the beginning of your next turn. In addition, you emanate a perpetual aura of blooming life around you in a 15-foot radius.</p>
+	  <p class="indent">While you remain still, this aura grows by an additional 5 feet per turn, up to a maximum of 120 feet, retracting when you move once more. </p>
+	  <p class="indent">Whenever you cast a druid spell, the aura also erupts under any creatures, objects or areas you target, lasting until the end of your next turn. Choose from one pf the following effects for your lifebloom aura whenerver you finish a long rest.</p>
+	  <p class="indent"><b>Cradle of Life.</b> The life within your aura teems with vitality, sprouting berries and edible flowers, and overflowing with honey and sweet saps. It grows enough food to nourish one medium sized creature each day, and purifies enough water for two to drink.
+	   In addition, any creature of your choice that stands in your aura recieves additional healing equal to your Wisdom modifier (minimum of 1) whenever theu regain hit points in any way.</p>
+	   <p class = "indent"><b>Whispering wilds.</b> Any tangible creatures in your aura are revealed as the overgrown foliage and the bounty of creatures within, alert all to their presence. In addition, when a creature enters or leaves your aura for the first time on a turn, they must expend 5 feet of movement
+	   and take slashing, piercing or poison damage (your choice) equal ro your Wisdom modifier (minimum of 1). You can exclude cretaures of your choice from 1 of these effects.</p>
     </description>
     <sheet action="Bonus Action" usage="{{wisdom:modifier}}/Long Rest">
       <description>Teleport up to 60ft.
