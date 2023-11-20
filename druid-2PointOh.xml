@@ -14,14 +14,14 @@
       <p>Druids of the Verdant Circle are most at peace among the green wilds, tending to wildflower blooms, sacred groves, vine-bound rainforests and even seagrass plains dancing on he ocean floor. These druids fight fiercly to defend this life upon which all other life depends, and are protected and nutured in return</p>
       <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CIRCLE_VERDANT_GROVE_PROTECTOR" />
       <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_VERDANT_FORM" />
-      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HIDDEN_PATHS" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_LIFEBLOOM" />
       <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_WALKER_IN_DREAMS" />
     </description>
     <sheet display="false" />
     <rules>
       <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CIRCLE_VERDANT_GROVE_PROTECTOR" level="2" />
       <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_VERDANT_FORM" level="2" />
-      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HIDDEN_PATHS" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_LIFEBLOOM" level="10" />
       <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_WALKER_IN_DREAMS" level="14" />
     </rules>
   </element>
