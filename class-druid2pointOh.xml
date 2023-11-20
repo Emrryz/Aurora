@@ -9,7 +9,7 @@
 		</update>
 	</info>
 
-	<element name="Druid" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_DRUID2POINTOH">
+	<element name="Druid2PointOh" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_DRUID2POINTOH">
 		<description>
 			<!-- <p class="flavor">A priest of the Old Faith, wielding the powers of nature— moonlight and plant growth, fire and lightning—and adopting animal forms.</p> -->
 			<p>Holding high a gnarled staff wreathed with holly, an elf summons the fury of the storm and calls down explosive bolts of lightning to smite the torch-carrying orcs who threaten her forest.</p>
