@@ -359,7 +359,7 @@
 
 <!-- <p class="flavor">Verdant</p> -->
 
-	<element name="Circle Of The Verdant" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_CIRCLE_SPELLS_VERDANT">
+	<element name="Circle Of The Verdant" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_CIRCLEOFTHEVERDANT">
 		<supports>Circle Spells</supports>
 		<description>
 			<p>Druids of the Verdant Circle are most at peace among the green wilds, tending to wildflower blooms, sacred groves, vine-bound rainforests and even seagrass plains dancing on he ocean floor. These druids fight fiercly to defend this life upon which all other life depends, and are protected and nutured in return</p>
