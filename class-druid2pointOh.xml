@@ -5,7 +5,7 @@
 		<description>The Druid class from the Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.2.9">
-			<file name="class-Druid2PointOh<.xml" url="https://github.com/Emrryz/Aurora/blob/main/class-druid2pointOh.xml" />
+			<file name="class-Druid2PointOh.xml" url="https://github.com/Emrryz/Aurora/blob/main/class-druid2pointOh.xml" />
 		</update>
 	</info>
 
@@ -675,9 +675,9 @@
 		<description>
 			<p>Upon joining the Circle of the Verdant at 2nd level, you gain the ability to charge seeds or spores with sentience and purposeful life, growing and awakened plant friend that joins
 			you on your adventure and defends you and your friends. You can spend 8 hours tending to a seed, bud or spore, rooting it in a sacred soil, feeding it with enchanted waters, or bathing
-			it in blessed light. At the end of 8 hours, your friend sprouts to full size,m in a size from small to large (your choice).
+			it in blessed light. At the end of 8 hours, your friend sprouts to full size,m in a size from small to large (your choice).  &#10
 			Choose a friend from among the following types: living tree, blood rose, vine creeper, or myconid, each with unique statistics. See this creature's game statistics below. You may also choose
-			up to two variant features for your friend, listed below, and an additional variant feature each at 11th and 17th level.
+			up to two variant features for your friend, listed below, and an additional variant feature each at 11th and 17th level. &#10
 			Your plant friend obeys your commands (no action required by you) and takes its turn on your initiative. Your plant friend can also be commanded to melf with you or another friendly creature
 			, as though mounted, its bark, its roots or vines can mesh seamlessly with flesh, clothing and armor. While in this combined form the plant friend can use its reaction to intercept up to half of the damage intended for its symbiote.
 			If your friends body is destroyed, it leaves Behind a seed, bud or spore and regrows with 1 hit point over 1 hour. You can choose a different plant form for your friend, tranferring its consciousness
