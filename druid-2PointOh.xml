@@ -5,7 +5,7 @@
     <description>The Circle of Verdant</description>
     <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
     <update version="0.0.4">
-      <file name="druid-2pointOh.xml" url="https://github.com/Emrryz/Aurora/blob/main/druid-2PointOh.xml" />
+      <file name="druid-2pointOh.xml" url="https://github.com/Emrryz/Aurora/blob/main/class-druid2pointOh.xml" />
     </update>
   </info>
   <element name="Circle of the Verdant" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_CIRCLE_OF_VERDANT">
