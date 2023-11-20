@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Druid2PointOh</name>
+    <description>The Circle of Verdant</description>
+    <author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
+    <update version="0.0.4">
+      <file name="druid-2pointOh.xml" url="https://github.com/Emrryz/Aurora/blob/main/class-druid2pointOh.xml" />
+    </update>
+  </info>
+  <element name="Circle of the Verdant" type="Archetype" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_CIRCLE_OF_VERDANT">
+    <supports>Druid Circle</supports>
+    <description>
+      <p>Druids of the Verdant Circle are most at peace among the green wilds, tending to wildflower blooms, sacred groves, vine-bound rainforests and even seagrass plains dancing on he ocean floor. These druids fight fiercly to defend this life upon which all other life depends, and are protected and nutured in return</p>
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_BALM_OF_THE_SUMMER_COURT" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HEARTH_OF_MOONLIGHT_AND_SHADOW" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HIDDEN_PATHS" />
+      <div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_WALKER_IN_DREAMS" />
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_BALM_OF_THE_SUMMER_COURT" level="2" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HEARTH_OF_MOONLIGHT_AND_SHADOW" level="6" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HIDDEN_PATHS" level="10" />
+      <grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_WALKER_IN_DREAMS" level="14" />
+    </rules>
+  </element>
+  <element name="Grove Protector" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_CIRCLE_VERDANT_GROVE_PROTECTOR">
+		<description>
+			<p>Upon joining the Circle of the Verdant at 2nd level, you gain the ability to charge seeds or spores with sentience and purposeful life, growing and awakened plant friend that joins
+			you on your adventure and defends you and your friends. You can spend 8 hours tending to a seed, bud or spore, rooting it in a sacred soil, feeding it with enchanted waters, or bathing
+			it in blessed light. At the end of 8 hours, your friend sprouts to full size,m in a size from small to large (your choice).
+			Choose a friend from among the following types: living tree, blood rose, vine creeper, or myconid, each with unique statistics. See this creature's game statistics below. You may also choose
+			up to two variant features for your friend, listed below, and an additional variant feature each at 11th and 17th level.
+			Your plant friend obeys your commands (no action required by you) and takes its turn on your initiative. Your plant friend can also be commanded to melf with you or another friendly creature
+			, as though mounted, its bark, its roots or vines can mesh seamlessly with flesh, clothing and armor. While in this combined form the plant friend can use its reaction to intercept up to half of the damage intended for its symbiote.
+			If your friends body is destroyed, it leaves Behind a seed, bud or spore and regrows with 1 hit point over 1 hour. You can choose a different plant form for your friend, tranferring its consciousness
+			 with ease. As an action, you can accelerate this proccess of regrowth, using one use of your Wild Shape to instantly revive your friend with 1 hit point.</p>
+		</description>
+		<sheet>
+			<description>You can cast the alter self spell at will.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Druid" />
+		</rules>
+	</element>
+
+  <element name="Hearth of Moonlight and Shadow" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HEARTH_OF_MOONLIGHT_AND_SHADOW">
+    <description>
+      <p>At 6th level, home can be wherever you are. During a short or long rest, you can invoke the shadowy power of the Gleaming Court to help guard your respite. At the start of the rest, you touch a point in space, and an invisible, 30-foot—radius sphere of magic appears, centered on that point. Total cover blocks the sphere.</p>
+      <p class="indent">While within the sphere, you and your allies gain a +5 bonus to Dexterity (Stealth) and Wisdom (Perception) checks, and any light from open flames in the sphere (a campfire, torches, or the like) isn’t visible outside it.</p>
+      <p class="indent">The sphere vanishes at the end of the rest or when you leave the sphere.</p>
+    </description>
+    <sheet>
+      <description>at the start of a rest, touch a point in space, and an invisible, 30ft radius sphere of magic shadow appears. While within, you and your allies gain a +5 to Stealth and Perception, and no light is visible outside it. It vanishes at the end of the rest, or when you leave the sphere.</description>
+    </sheet>
+  </element>
+  <element name="Hidden Paths" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_HIDDEN_PATHS">
+    <description>
+      <p>Starting at 10th level, you can use the hidden, magical pathways that some fey use to traverse space in the blink of an eye. As a bonus action on your turn, you can teleport up to 60 feet to an unoccupied space you can see. Alternatively, you can use your action to teleport one willing creature you touch up to 30 feet to an unoccupied space you can see.</p>
+      <p class="indent">You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest.</p>
+    </description>
+    <sheet action="Bonus Action" usage="{{wisdom:modifier}}/Long Rest">
+      <description>Teleport up to 60ft.
+	  Alternatively, as an action you teleport a willing creature you touch up to 30ft.</description>
+    </sheet>
+  </element>
+  <element name="Walker in Dreams" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_DREAMS_WALKER_IN_DREAMS">
+    <description>
+      <p>At 14th level, the magic of the Feywild grants you the ability to travel mentally or physically through dreamlands.</p>
+      <p class="indent">When you finish a short rest, you can cast one of the following spells, without expending a spell slot or requiring material components: dream (with you as the messenger), scrying, or teleportation circle.</p>
+      <p class="indent">This use of teleportation circle is special. Rather than opening a portal to a permanent teleportation circle, it opens a portal to the last location where you finished a long rest on your current plane of existence. If you haven't taken a long rest on your current plane, the spell fails but isn’t wasted.</p>
+      <p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+    </description>
+    <sheet usage="1/Long Rest">
+      <description>When finishing a short rest, cast Dream, Scrying, or Teleportation Circle without using a spell slot, or material component. This use of teleportation circle is special. Rather than opening a portal to a permanent teleportation circle, it opens a portal to the last location where you finished a long rest on your current plane of existence.</description>
+    </sheet>
+  </element>
+</elements>
